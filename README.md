@@ -42,7 +42,15 @@ One base "Google Tag" configuration plus five GA4 Event tags, each mapped to a s
 
 # Key Metrics
 
-*(Coming soon — once Looker Studio dashboard is built on 2-4 weeks of real traffic data. No real performance numbers are published in this repo.)*
+*(Full metrics table coming once Looker Studio dashboard is built on 2-4 weeks of real traffic data.)*
+
+# Weekly Tracking
+
+Lightweight weekly GA4 snapshots (7-day view), started ahead of the full Looker Studio dashboard. Property ID and any auth tokens are never shown in these screenshots.
+
+| Date | Active Users | New Users | Sessions | Top Traffic Source | Screenshot |
+|---|---|---|---|---|---|
+| 2026-08-10 | 6 | 1 | 30 | Referral -- indiehackers.com (21 sessions) | [GA4 Home](screenshots/ga4-home-2026-08-10.png) |
 
 ---
 

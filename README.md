@@ -21,6 +21,8 @@ The second half of the project was verification: rather than assume "published" 
 ### 1️⃣ Tag Architecture
 One base "Google Tag" configuration plus five GA4 Event tags, each mapped to a specific trigger and a specific user action. See the inventory table below.
 
+![GA4 Home](screenshots/ga4-home-2026-08-10.png)
+
 ### 2️⃣ Debugging Process
 *(Coming soon: full write-up in the Deep Dive)* How Google Tag Assistant was used to verify each trigger against live production behavior, including the raw `dataLayer` inspection that first surfaced a duplicate-tracking bug.
 

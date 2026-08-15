@@ -10,9 +10,9 @@ A GA4 + Google Tag Manager conversion-tracking build for a WordPress product sit
 
 # Project Overview
 
-The site needed conversion-path tracking across three actions that actually matter for a self-serve product business: someone viewing a product, someone viewing the products catalog, and someone clicking through to buy or book. The plan going in assumed Google Tag Manager's older "GA4 Configuration" tag type. Partway through the build, that assumption turned out to be wrong — Google had quietly retired it in favor of a unified "Google Tag" type, with GA4 Event tags now taking a direct Measurement ID field instead of referencing a separate configuration tag. The build (and the written setup plan it followed) had to be corrected against the real, current UI rather than trusted documentation.
+The site needed conversion-path tracking across three actions that actually matter for a self-serve product business: someone viewing a product, someone viewing the products catalog, and someone clicking through to buy or book. The plan going in assumed Google Tag Manager's older "GA4 Configuration" tag type. Partway through the build, that assumption turned out to be wrong: Google had quietly retired it in favor of a unified "Google Tag" type, with GA4 Event tags now taking a direct Measurement ID field instead of referencing a separate configuration tag. The build (and the written setup plan it followed) had to be corrected against the real, current UI rather than trusted documentation.
 
-The second half of the project was verification: rather than assume "published" meant "working," every tag was tested against the live site using Google Tag Assistant. That process caught two real problems before they could corrupt data — see [Known Limitations](#3️⃣-known-limitations) below.
+The second half of the project was verification: rather than assume "published" meant "working," every tag was tested against the live site using Google Tag Assistant. That process caught two real problems before they could corrupt data. See [Known Limitations](#3️⃣-known-limitations) below.
 
 ---
 
@@ -22,10 +22,10 @@ The second half of the project was verification: rather than assume "published" 
 One base "Google Tag" configuration plus five GA4 Event tags, each mapped to a specific trigger and a specific user action. See the inventory table below.
 
 ### 2️⃣ Debugging Process
-*(Coming soon — full write-up in the Deep Dive)* How Google Tag Assistant was used to verify each trigger against live production behavior, including the raw `dataLayer` inspection that first surfaced a duplicate-tracking bug.
+*(Coming soon: full write-up in the Deep Dive)* How Google Tag Assistant was used to verify each trigger against live production behavior, including the raw `dataLayer` inspection that first surfaced a duplicate-tracking bug.
 
 ### 3️⃣ Known Limitations
-*(Coming soon — full write-up in the Deep Dive)* A documented case where a click trigger technically fires but can't see its actual target, because the target lives inside a cross-origin iframe — and why that's a real constraint, not a bug to hide.
+*(Coming soon: full write-up in the Deep Dive)* A documented case where a click trigger technically fires but can't see its actual target, because the target lives inside a cross-origin iframe, and why that's a real constraint, not a bug to hide.
 
 ---
 
@@ -59,7 +59,7 @@ Lightweight weekly GA4 snapshots (7-day view), started ahead of the full Looker 
 - Google Tag Manager (container-based tag/trigger/variable management)
 - Google Analytics 4 (Measurement Protocol via GTM's Google Tag)
 - Google Tag Assistant (live production debugging and verification)
-- Looker Studio (dashboard — pending, Phase 2)
+- Looker Studio (dashboard pending, Phase 2)
 
 # Tools Used
 

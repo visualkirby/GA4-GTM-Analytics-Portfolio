@@ -53,6 +53,7 @@ Lightweight weekly GA4 snapshots (7-day view), started ahead of the full Looker 
 | Date | Active Users | New Users | Sessions | Top Traffic Source | Screenshot |
 |---|---|---|---|---|---|
 | 2026-08-10 | 6 | 1 | 30 | Referral -- indiehackers.com (21 sessions) | [GA4 Home](screenshots/ga4-home-2026-08-10.png) |
+| 2026-08-24 | 0 | 0 | 0 | None -- 0 sessions across every source/channel/city/country breakdown, last 7 days | [GA4 Home](screenshots/ga4-home-2026-08-24.png) |
 
 ---
 

@@ -50,6 +50,8 @@ One base "Google Tag" configuration plus five GA4 Event tags, each mapped to a s
 
 Lightweight weekly GA4 snapshots (7-day view), started ahead of the full Looker Studio dashboard. Property ID and any auth tokens are never shown in these screenshots.
 
+**Goal, tied to the FreelanceFlow relaunch:** 50+ active users/day during the Launch window (currently 0, last 7 days). See `FreelanceFlow-App/docs/metrics-goals.md` for the full framework.
+
 | Date | Active Users | New Users | Sessions | Top Traffic Source | Screenshot |
 |---|---|---|---|---|---|
 | 2026-08-10 | 6 | 1 | 30 | Referral -- indiehackers.com (21 sessions) | [GA4 Home](screenshots/ga4-home-2026-08-10.png) |

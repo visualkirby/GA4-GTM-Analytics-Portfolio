@@ -58,6 +58,7 @@ Lightweight weekly GA4 snapshots (7-day view), started ahead of the full Looker 
 | 2026-08-24 | 0 | 0 | 0 | None -- 0 sessions across every source/channel/city/country breakdown, last 7 days | [GA4 Home](screenshots/ga4-home-2026-08-24.png) |
 | 2026-10-11 | 1 | 0 | 1 | Unassigned (1 session) | [GA4 Home](screenshots/ga4-home-2026-10-11.png) |
 | 2026-10-19 | 0 | 0 | 0 | None (0 sessions, last 7 days) | [GA4 Home](screenshots/ga4-home-2026-10-19.png) |
+| 2026-10-26 | 0 | 0 | 0 | None (0 sessions, last 7 days). **GA4 Home now shows "No data received from your website yet"**: the site tag isn't sending data, so 0 is a tracking gap, not real traffic. Measurement ID masked in the screenshot. | [GA4 Home](screenshots/ga4-home-2026-10-26.png) |
 
 ---
 
